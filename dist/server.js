@@ -10,6 +10,6 @@ var app = express_1.default();
 app.use(cors_1.default());
 app.use(express_1.default.json());
 app.use(routes_1.default);
-app.listen(3333, function () {
+app.listen(5000, function () {
     console.log("Server is running");
 });
