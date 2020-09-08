@@ -1,7 +1,7 @@
 {
    "name": "backend-template",
    "version": "1.0.0",
-   "main": "index.js",
+   "main": "dist/server.js",
    "license": "MIT",
    "scripts": {
       "dev": "ts-node-dev --transpile-only --ignore node_modules src/server.ts",
