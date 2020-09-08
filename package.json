@@ -5,7 +5,8 @@
    "license": "MIT",
    "scripts": {
       "dev": "ts-node-dev --transpile-only --ignore node_modules src/server.ts",
-      "start": "ts-node src/server.ts"
+      "start": "ts-node src/server.ts",
+      "heroku": "node dist/server.js"
    },
    "devDependencies": {
       "@types/cors": "^2.8.7",
