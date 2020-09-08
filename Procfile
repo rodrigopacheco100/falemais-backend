@@ -1,1 +1,1 @@
-yarn heroku
+yarn start
